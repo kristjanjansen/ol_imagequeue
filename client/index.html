@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css"  /> 
+  </head>
+  <body>
+    
+    <!--
+    The code below is generated using http://benalman.com/code/test/jquery-run-code-bookmarklet
+    
+    var file = $('#viewxframe div').eq(1).find('strong').parent().html().split('<br>')[2];
+    window.open('http://localhost:8000?id=' + file);
+    -->
+    
+    <div id="dragme">
+    Drag it to toolbar &rarr; <a href="javascript:(function(e,a,g,h,f,c,b,d)%7Bif(!(f%3De.jQuery)%7C%7Cg%3Ef.fn.jquery%7C%7Ch(f))%7Bc%3Da.createElement(%22script%22)%3Bc.type%3D%22text/javascript%22%3Bc.src%3D%22http://ajax.googleapis.com/ajax/libs/jquery/%22%2Bg%2B%22/jquery.min.js%22%3Bc.onload%3Dc.onreadystatechange%3Dfunction()%7Bif(!b%26%26(!(d%3Dthis.readyState)%7C%7Cd%3D%3D%22loaded%22%7C%7Cd%3D%3D%22complete%22))%7Bh((f%3De.jQuery).noConflict(1),b%3D1)%3Bf(c).remove()%7D%7D%3Ba.documentElement.childNodes%5B0%5D.appendChild(c)%7D%7D)(window,document,%221.9.1%22,function(%24,L)%7Bvar%20file%20%3D%20%24(%27%23viewxframe%20div%27).eq(1).find(%27strong%27).parent().html().split(%27%3Cbr%3E%27)%5B2%5D%3Bwindow.open(%27http://localhost:8000%3Fid%3D%27%20%2B%20file)%3B%7D)%3B">Add image to queue</a>
+    </div>
+    
+    <h2>Add image to queue</h2>
+    <form id="form_add">
+      <p><label for="id">Id: </label><input type="text" name="id" value="" id="id"></p>      
+      <p><input type="submit" value="Add"></p>
+    </form>
+    <div id="message"></div>
+    <img id="image">
+    <script type="text/javascript" src="vendor/jquery.js"></script> 
+    <script type="text/javascript" src="js/app.js"></script> 
+ 
+  </body>
+</html>

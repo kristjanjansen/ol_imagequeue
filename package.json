@@ -1,0 +1,17 @@
+{
+  "name": "ol_imagequeue",
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "0.10.x",
+    "config": "0.4.x",
+    "imagemagick": "0.1.x",
+    "request": "2.12.x",
+    "tako": "0.3.x"
+  },
+  "volo": {
+    "baseUrl": "client/vendor",
+    "dependencies": {
+      "jquery": "github:jquery/jquery/1.9.1"
+    }
+  }
+}
